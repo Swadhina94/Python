@@ -1,0 +1,66 @@
+True Division Operator (/)
+-----------------------------
+1. What is the output of `10 / 2`?----->10/2 =5.0
+
+2. Calculate `25 / 5`.----------->25/5=5.0
+
+3. Find the result of `100 / 10`.-------->100/10=10.0
+
+4. What is the output of `7 / 2`?------->7/2=3.5
+
+5. Calculate `15 / 4`.-------------->15/4= 3.75
+
+6. Find the result of `1 / 2`.------->1/2=0.5
+
+7. What is the output of `20 / 3`?--------->20/3= 6.666667
+
+8. Divide two user-input numbers.
+a=45
+b=4.5
+div=a/b
+div= 10.0
+
+9. Calculate average of three numbers using division.
+num1=45
+num2=56
+num3=85
+average=num1+num2+num3/3
+average= 129.33333333333334
+
+10. Find the result of `100 / 4`.------>100/4=125.0
+
+11. Calculate percentage marks.
+total_mark=600
+mark= 336
+percentage= mark/total_mark*100
+percentage= 56.00000000000001
+
+12. What is the output of `10.5 / 2`?------>10.5/2=5.25
+
+13. Find the result of `-20 / 4`.---->-20/4= -5.0
+
+14. What is the output of `-20 / -4`?------>-20/-4= 5.0
+
+15. Calculate speed = distance / time.
+distance= 53
+time=1
+speed= distance/time
+speed= 53.0
+
+16. Calculate per-person expense sharing.
+no_person=7
+expense=7539
+sharing=expense/no_person
+sharing= 1077.0
+
+17. Find the result of `(10 + 20) / 5`.---->(10+20)/5 = 6.0
+
+18. What is the output of `5 * 10 / 2`?----->5*10/2= 25.0
+
+19. Calculate unit price from total price and quantity.
+quantity=75
+total_price=6500
+unit_price=total_price/quantity
+unit_price= 86.66666666666667
+
+20. What happens when `10 / 0` is executed?----->10/0 =ZeroDivisionError: division by zero

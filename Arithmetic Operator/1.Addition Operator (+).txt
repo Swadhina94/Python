@@ -1,0 +1,49 @@
+Addition Operator (+)
+-------------------------------
+1. 10+20 = 30
+2. 45+55 = 100
+3. 100+200+300 = 600
+4. 5+2.5 = 7.5
+5. -10 + 25 = 15
+6. 1000+999 = 1999
+7. 7+8+9+10 = 34
+8. a=int(input('Enter first number '))
+Enter first number 345
+b=int(input('Enter second number '))
+Enter second number 689
+a+b = 1034
+
+9.Find the sum of first 5 natural numbers.--->1+2+3+4+5 =15
+
+10. Add three floating-point values.---->5.6+45.2+46.8 = 97.6
+
+11. "Python" + "Programming"  = 'PythonProgramming'
+
+12.True + 5 = 6
+
+13.False + 10 = 10
+
+14. subject_one = 69
+subject_two = 73
+sum = subject_one + subject_two
+sum = 142
+
+15.Length = 25
+Width = 13
+add= Length+Width
+add=38
+
+16. Find the sum of even numbers between 1 and 10.------>2+4+6+8+10 = 30
+
+17.Calculate total salary from basic and allowance.
+Basic = 34000
+allowance = 7200
+Total_salary = Basic+allowance
+Total_salary
+41200
+
+18.Add elements `10,20,30,40`.------>10+20+30+40 =100
+
+19.What is the output of `3 + 4 * 2`?------>3+4*2 = 11
+
+20.Find the result of `(3 + 4) * 2`.------->(3+4)*2 = 14

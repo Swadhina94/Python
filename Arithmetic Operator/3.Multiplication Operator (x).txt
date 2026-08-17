@@ -1,0 +1,60 @@
+Multiplication Operator (*)
+------------------------------
+1. What is the output of `5 * 4`?----->5*4=20
+
+2. Calculate `10 * 20`.------->10*20=200
+
+3. Find the result of `25 * 4`.------>25*4=100
+
+4. What is the output of `2.5 * 4`?---->2.5*4=10.0
+
+5. Calculate `-5 * 10`.--------->-5*10= -50
+
+6. Find the result of `-5 * -10`.---->-5*-10=50
+
+7. What is the output of `True * 10`?----->True * 10=10
+
+8. Calculate `False * 100`.----->False * 100=0
+
+9. Find the result of `"Hi" * 3`.----->'HiHiHi'
+
+10. Calculate area of rectangle using multiplication.
+length=654
+width=159
+area=length*width
+area= 103986
+
+11. Find the result of `12 * 12`.---->12*12=144
+
+12. Calculate salary for 30 days if daily wage is 500.
+daily_wage=500
+salary_for_30_days=daily_wage*30
+salary_for_30_days=15000
+
+13. Find the product of three numbers.
+num1=85
+num2=96
+num3=74
+product=num1*num2*num3
+product=603840
+
+14. Calculate `2 * 3 * 4 * 5`.---->2*3*4*5=120
+
+15. What is the output of `5 + 2 * 3`?----->5+2*3=11
+
+16. What is the output of `(5 + 2) * 3`?----->(5 + 2) * 3=21
+
+17. Calculate square of a number using multiplication.
+num=25
+square=num*num
+square= 625
+
+18. Calculate cube of a number using multiplication.
+num=25
+cube=num*num*num
+cube= 15625
+
+19. Find the result of `100 * 0`.----->100*0=0
+
+20. Multiply all elements in `[2,3,4]`.------>2*3*4= 24
+

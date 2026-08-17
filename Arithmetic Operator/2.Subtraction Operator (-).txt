@@ -1,0 +1,69 @@
+Subtraction Operator (-)
+--------------------------------------------------------
+1. What is the output of `50 - 20`?--------->50-20=30
+
+2. Calculate `100 - 75`.---------------->100-75=25
+
+3. Find the result of `500 - 250`.------->500-250=250
+
+4. What is the output of `10 - 15`?------>10-15= -5
+
+5. Calculate `0 - 25`.------------------->0-25= -25
+
+6. Find the difference between two user-input numbers.
+  num1=333
+  num2=168
+  diff=num1-num2
+  diff=165
+
+7. What is the result of `1000 - 999`?------>1000-999 = 1
+
+8. Calculate `75.5 - 25.5`.--------------->75.5-25.5= 50.0
+
+9. Find the output of `True - False`.---->1
+
+10. What is the result of `False - True`?-----> -1
+
+11. Calculate `100 - (25 + 25)`.------->100-(25+25)=50
+
+12. Find the result of `(100 - 20) - 30`.----->(100 - 20) - 30= 50
+
+13. Write a program to calculate age difference.
+age_first_person=39
+age_second_person=26
+age_difference= age_first_person - age_second_person
+age_difference=13
+
+14. Find profit/loss by subtracting cost price from selling price.
+real_price = 366
+selling_price = 599
+profit= selling_price - real_price
+profit= 233
+
+15. Calculate remaining balance after withdrawal.
+balance=7269
+Withdrawal=5000
+remaining_balance=balance-Withdrawal
+remaining_balance= 2269
+
+16. Subtract marks obtained from total marks.
+total_mark=600
+mark=420
+sub=total_mark-mark
+sub= 180
+
+17. Find the result of `20 - 3 * 2`.----->20 - 3 * 2= 14
+
+18. Find the output of `(20 - 3) * 2`.---->(20 - 3) * 2= 34
+
+19. Calculate temperature difference.
+temp1=160
+temp2=68
+diff=temp1-temp2
+diff= 92
+
+20. Find the difference between largest and smallest numbers.
+largest_number=9876
+smallest_number=1234
+diff=largest_number-smallest_number
+diff= 8642

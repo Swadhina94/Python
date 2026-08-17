@@ -1,0 +1,56 @@
+Floor Division Operator (//)
+-----------------------------------------
+1. What is the output of `10 // 2`?--------->10//2= 5
+
+2. Calculate `7 // 2`.------->7//2= 3
+
+3. Find the result of `15 // 4`.------>15//4 =3
+
+4. What is the output of `25 // 5`?------>25//5 =5
+
+5. Calculate `20 // 3`.--------->20//3 =6
+
+6. Find the result of `100 // 9`.------>100//9 = 11
+
+7. What is the output of `50 // 7`?-------->50//7 = 7
+
+8. Calculate `5.5 // 2`.------->5.5//2 = 2.0
+
+9. Find the result of `20.8 // 4`.------>20.8//4 = 5.0
+
+10. What is the output of `-15 // 2`?------->-15//2 = -8
+
+11. Find the result of `-10 // 3`.-------> -10//3 = -4
+
+12. Calculate number of boxes required if one box holds 10 items and total items are 95.
+one_box_holds=10
+total_items=95
+required_box=total_items//one_box_holds
+required_box = 9
+
+13. Find the result of `100 // 25`.------>100//25 = 4
+
+14. What is the output of `999 // 100`?----->999//100 = 9
+
+15. Calculate complete weeks in 50 days. 
+one_weeks=7
+total_days=50
+complete_weeks=total_days//one_weeks
+complete_weeks = 7
+
+16. Find the result of `35 // 6`.---->35//6 = 5
+
+17. What is the output of `2 // 5`?-----> 2//5 = 0
+
+18. Calculate complete years from 800 days.
+one_year=365
+total_day=800
+complete_years=total_day//one_year
+complete_years = 2
+
+19. Find the result of `(50 + 25) // 4`.---->(50+25)//4 = 18
+
+20. What happens when `10 // 0` is executed?------>10// 0 =ZeroDivisionError: division by zero
+
+
+
