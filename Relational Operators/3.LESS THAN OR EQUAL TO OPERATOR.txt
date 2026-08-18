@@ -1,0 +1,79 @@
+LESS THAN OR EQUAL TO OPERATOR (<=)
+------------------------------------------------
+1. What is the output of 5 <= 10?------> 5 <= 10 True
+
+2. What is the output of 10 <= 10?-----> 10 <= 10 True
+
+3. What is the output of 15 <= 10?------> 15<=10 False
+
+4. What is the output of 0 <= 0?-------> 0 <= 0 True
+
+5. What is the output of -5 <= -2?------> -5 <= -2 True
+
+6. Check whether age is less than or equal to 18.
+age=23
+age <= 18
+False
+
+7. Verify if marks are less than or equal to passing marks.
+passing_mark = 40
+mark = 40
+mark <= passing_mark
+True
+
+8. Check if temperature is less than or equal to 0.
+temp=5
+temp <= 0
+False
+
+9. Compare two user-input numbers using <=.
+a=int((input('1st number =  ')))
+1st number =  753
+b=int(input('2nd number = '))
+2nd number = 159
+a<=b
+False
+
+10. Determine if quantity is less than or equal to stock.
+quantity=453
+stock=582
+quantity<= stock
+True
+
+11. What is the result of 'cat' <= 'dog'?------>'cat' <= 'dog' True
+
+12. What is the output of 4.5 <= 4.5?------->4.5 <= 4.5 True
+
+13. Check whether a student can get a discount if age <= 12.
+age=25
+age<=12
+False
+
+14. Find if a bill amount is less than or equal to ₹500.
+bill_amount=369
+bill_amount <= 500
+True
+
+15. Write an if statement using <=.
+
+16. Check if string length is <= 8.
+a='hello sir'
+len(a)<= 8
+False
+
+17. What is the output of True <= True?------->True <= True - true
+18. Compare two dates using <=.
+date1 = 18
+date2 =26
+date1 <= date2
+True
+
+19. Verify whether current month number <= 12.
+cur_month_no =7
+cur_month_no <= 12
+True
+
+20. Check if a value entered is <= 100.
+value = 123
+value <= 100
+False

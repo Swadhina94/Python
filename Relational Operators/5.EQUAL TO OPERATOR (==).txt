@@ -1,0 +1,77 @@
+EQUAL TO OPERATOR (==)
+------------------------------------------------
+1. What is the output of 5 == 5?-------> True
+
+2. What is the output of 5 == 10?------>False
+
+3. What is the output of 'Python' == 'Python'?---->True
+
+4. What is the output of 'Python' == 'python'?----->False
+
+5. What is the output of 10.0 == 10?----> True
+
+6. Check whether age is equal to 18.
+age=23
+age==18
+False
+
+7. Verify if marks are equal to 100.
+mark=96
+mark==100
+False
+
+8. Compare two user-input numbers using ==.
+a= int(input('1st number = '))
+1st number = 456
+b= int(input('2nd number = '))
+2nd number = 258
+a==b
+False
+
+9. Check whether username is equal to "admin".
+username='swag'
+username=='admin'
+False
+
+10. Determine if password matches a predefined password.
+password='admin@123'
+pre_passwoed='admin@123'
+pre_passwoed == password
+True
+
+11. What is the output of True == 1?--->True
+
+12. What is the output of False == 0?----> True
+
+13. Compare two strings entered by the user.
+'hello' == 'hii'
+False
+
+14. Check if a product code matches a given code.
+product_code = 123456789
+given_code =   123456789
+product_code = given_code
+True
+
+15. Write an if statement using ==.
+
+16. Verify whether the current year is equal to 2026.
+2026 == 2026
+True
+
+17. Compare two lists using ==. 
+[4,5,6] == [7,8,9]
+False
+
+18. Compare two tuples using ==.
+(4,5,6)==(7,8,9)
+False
+
+19. Check if entered character is equal to 'A'.
+'A'=='A'
+True
+
+20. Determine if a number is exactly zero. 
+0 == 0
+True
+

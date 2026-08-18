@@ -1,0 +1,72 @@
+NOT EQUAL TO OPERATOR (!=)
+-------------------------------------------------------
+1. What is the output of 5 != 10?--->True
+
+2. What is the output of 5 != 5?---->False
+
+3. What is the output of 'Python' != 'Java'?---->True
+
+4. What is the output of 'Python' != 'python'?---->True
+
+5. What is the output of 10 != 10.0?----->False
+
+6. Check whether age is not equal to 18.
+age=23
+age != 18
+True
+
+7. Verify if marks are not equal to passing marks.
+pass_mark= 40
+mark= 68
+pass_mark != mark
+True
+
+8. Compare two user-input numbers using !=.
+4287 != 4875
+True
+
+9. Check whether username is not equal to "admin".
+password='admin@123'
+pre_passwoed='admin@123'
+pre_passwoed != password
+False
+
+10. Determine if password does not match.
+'Admin' != 'admin'
+True
+
+11. What is the output of True != 1?---> False
+
+12. What is the output of False != 0?---> False
+
+13. Compare two strings entered by the user.
+'hello' != 'hii '
+True
+
+14. Check if a product code is different from a given code.
+product_code = 123456789
+given_code =   123456789
+product_code != given_code
+False
+
+15. Write an if statement using !=.
+
+16. Verify whether current year is not equal to 2025.
+2026 != 2025
+True
+
+17. Compare two lists using !=.
+[4,5,6] != [7,8,9]
+True
+
+18. Compare two tuples using !=.
+(7,4,1) != (7,4,1)
+False
+
+19. Check if entered character is not equal to 'A'.
+'S' != 'A'
+True
+
+20. Determine if a number is not zero.
+4 != 0
+True 

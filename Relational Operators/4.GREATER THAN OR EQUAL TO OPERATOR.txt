@@ -1,0 +1,81 @@
+GREATER THAN OR EQUAL TO OPERATOR (>=)
+---------------------------------------------
+1. What is the output of 10 >= 5?-------> True
+
+2. What is the output of 10 >= 10?------->True
+
+3. What is the output of 5 >= 10?-------->False
+
+4. What is the output of 0 >= 0?-------->True
+
+5. What is the output of -2 >= -5?--------> True
+
+6. Check whether age is greater than or equal to 18.
+age =23
+age >= 10
+True
+
+7. Verify if marks are greater than or equal to passing marks.
+passing_mark = 40
+mark = 40
+mark >= passing_mark
+True
+
+8. Check if salary is greater than or equal to ₹25,000.
+salary = 32000
+salary >= 25000
+True
+
+9. Compare two user-input numbers using >=.
+a=int((input('1st number =  ')))
+1st number =  159
+b=int(input('2nd number = '))
+2nd number = 753
+a>=b
+False
+
+10. Determine if stock is greater than or equal to demand.
+stock = 369
+demand = 741
+stock >= demand
+False
+
+11. What is the result of 'dog' >= 'cat'?------> True
+
+12. What is the output of 4.5 >= 4.5?------> True
+
+13. Check whether a customer is eligible for an offer if purchase >= ₹5000.
+purchase = 8320
+purchase >= 5000
+True
+
+14. Find if account balance >= minimum balance.
+account_balance = 3562
+minimum_balance= 1000
+account_balance >= 1000
+True
+
+15. Write an if statement using >=.
+
+16. Check if string length >= 5.
+length = 45
+length >= 5
+True
+
+17. What is the output of True >= False?----> True
+
+18. Compare two years using >=.
+year1 = 1856
+year2 = 1947
+year1 >= year2
+False
+
+19. Verify whether score >= 35.
+score = 52
+score >= 35
+True
+
+20. Check if entered value >= 0.
+value = 321
+value >= 0
+True

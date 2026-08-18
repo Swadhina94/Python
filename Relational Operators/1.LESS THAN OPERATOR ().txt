@@ -1,0 +1,79 @@
+LESS THAN OPERATOR (<)
+-------------------------------------------------------------------
+1. What is the output of 5 < 10?----->5 < 10 = True
+
+2. What is the output of 15 < 10?----->15>10 = True
+
+3. What is the output of 7 < 7?------>7<7 = Flase
+
+4. What is the output of -5 < 0?------>-5 < 0 =True
+
+5. What is the output of 100 < 99?-----> 100 < 99 = false
+
+6. Write a program to check whether a number is less than 50.
+num = 89
+num<50
+False
+
+7. Check if age is less than 18.
+age=20
+age<18
+False
+
+8. Check if temperature is less than 0.
+temp=-26
+temp<0
+True
+
+9. Find whether 25 is less than 30.------> 25<30 = true
+
+10. Compare two user-input numbers using <.
+a=int(input('enter 1st number =  '))
+enter 1st number =  789
+b=int(input('enter 2nd number =  '))
+enter 2nd number =  852
+a<b
+True
+
+11. What is the result of 'apple' < 'banana'?------->'apple' < 'banana' = True
+
+12. What is the result of 3.5 < 4.2? --------> 3.5 < 4.2 = True
+
+13. Check whether a student's marks are less than the passing marks.
+passing_mark=40
+stu_mark=44
+stu_mark<passing_mark
+False
+
+14. Determine if a product price is less than ₹1000.
+product_price=999
+product_price<1000
+True
+
+15. Write an if statement using <.
+
+16. Check whether the length of a string is less than 5.
+a='hello'
+len(a)
+5
+len(a)<5
+False
+
+17. What is the output of True < False?----->True < False = False
+
+18. Compare two dates represented as numbers.
+date1=15
+date2=3
+date1<date2
+False
+
+19. Find the smaller value using <.
+value1= 12345
+value2=4562
+value1<value2
+False
+
+20. Check if the current year is less than 2030.
+current_year=2026
+current_year<2030
+True
