@@ -1,0 +1,60 @@
+LOGICAL NOT OPERATOR (not)
+-------------------------------------------
+1. What is the output of not True?-----> False
+
+2. What is the output of not False?-----> True
+
+3. What is the output of not (10 > 5)?----> False
+
+4. What is the output of not (10 < 5)?-----> True
+
+5. What is the output of not (5 == 5)?------> False
+
+6. What is the output of not (5 != 5)? ------>True
+
+7. Check whether a number is not positive.
+num = 45
+not (num > 0)
+False
+
+8. Verify if a user is not logged in.
+username = 'swag123'
+password = 'Swag@123'
+not username == 'swag123' and password == 'Swag@123'
+False
+ 
+9. Check whether age is not greater than 18.
+age = 23
+not (age > 18)
+False
+
+10. Determine if marks are not less than passing marks.
+passing_mark = 40
+passing_mark <= 78 and passing_mark <= 40 and passing_mark <= 56
+False
+
+11. What is the output of not 0? ----> True
+
+12. What is the output of not 1?-----> False
+
+13. What is the output of not 'Python'? ----> False
+
+14. What is the output of not ''?-----> True
+
+15. Write an if statement using not. 
+
+16. Check whether a list is not empty.
+
+17. Verify if a string is not blank.
+
+18. Check whether a number is not even.
+num= 5
+not num % 2==0
+True
+
+19. Determine if a file does not exist.
+
+20. Create a program using not operator.
+age = 23
+not (age > 18)
+False

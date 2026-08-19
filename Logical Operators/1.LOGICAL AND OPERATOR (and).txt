@@ -1,0 +1,75 @@
+LOGICAL AND OPERATOR (and)
+-----------------------------------------
+1. What is the output of True and True? ---->True
+
+2. What is the output of True and False?---->False
+
+3. What is the output of False and True?---->False
+
+4. What is the output of False and False?---->False
+
+5. What is the output of 10 > 5 and 20 > 15?---->True
+
+6. What is the output of 10 > 5 and 20 < 15?---->False
+
+7. Check whether a person is eligible to vote and has a valid ID.
+age = 20
+has_valid_id = 'SDF1522008'
+age >= 18 and has_valid_id == 'SDF1522008'
+True
+
+8. Check whether marks are greater than 35 and attendance is above 75%.
+mark = 56
+attendance = 70
+mark >= 35 and attendance >= 75
+False
+
+9. Verify if age is greater than 18 and less than 60.
+age = 23
+age >= 18 and age<= 60
+True
+
+10. Check whether salary is above ₹30,000 and experience is above 2 years.
+salary = 25000
+experince = 1
+salary >= 30000 and experince >= 2
+False
+
+11. What is the output of 5 and 10?-------> 10
+12. What is the output of 0 and 10?-----> 0
+13. What is the output of 'Python' and 'Java'?---->'Java'
+14. Check if a number is positive and even.
+num = 456
+(456 % 2 == 0 ) and num > 0
+True
+
+15. Check if a student passed all subjects.
+passing_mark = 40
+passing_mark <= 78 and passing_mark <= 40 and passing_mark <= 56
+True
+
+16. Write an if statement using and.
+
+17. Determine if a product is in stock and price is within budget.
+stock = 10
+price= 60
+product = 5
+budget = 60
+stock >= product and price >= budget
+True
+
+18. Check if username and password are correct.
+username = 'swag123'
+password = 'Swag@123'
+username == 'swag123' and password == 'Swag@123'
+True
+
+19. Verify whether a year is divisible by 4 and not divisible by 100.
+year= 2026
+year % 4 == 0 and year != (year % 100 == 0)
+False
+
+20. Create a program using and operator.
+num = 456
+(456 % 2 == 0 ) and num > 0
+True

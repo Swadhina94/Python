@@ -1,0 +1,66 @@
+LOGICAL OR OPERATOR (or)
+----------------------------------------------------------
+1. What is the output of True or True?-----> True
+
+2. What is the output of True or False?---->True
+
+3. What is the output of False or True?---->True
+
+4. What is the output of False or False?---->False
+
+5. What is the output of 10 > 5 or 20 > 15?---->True
+
+6. What is the output of 10 < 5 or 20 > 15?---->True
+
+7. Check whether a student passed in theory or practical exam.
+theory =58
+practical = 28
+theory >= 33 or practical >= 16
+True
+
+8. Verify if age is below 18 or above 60.
+age = 23
+age >= 18 or age<= 60
+True
+
+9. Check whether salary is above ₹50,000 or experience is above 5 years.
+salary = 25000
+experince = 1
+salary >= 50000 or experince >= 5
+False
+
+10. Determine if a number is divisible by 2 or 5.
+num= 5
+num % 5 == 0  or num % 2 == 0
+True
+
+11. What is the output of 5 or 10?-----> 5
+
+12. What is the output of 0 or 10?----->10
+
+13. What is the output of '' or 'Python'?-----> 'Python'
+
+14. Check if a user entered a valid email or phone number.
+
+15. Write an if statement using or.
+
+16. Check whether a character is a vowel or digit.
+
+17. Verify if today is Saturday or Sunday.
+today = 'sunday'
+today = 'sunday' or 'saturday'
+today
+'sunday'
+
+18. Check if a product belongs to Electronics or Computers category.
+
+19. Determine if marks are greater than 90 or attendance is above 95%.
+mark = 56
+attendance = 70
+mark >= 90 or attendance >= 95
+False
+
+20. Create a program using or operator.
+num= 5
+num % 5 == 0  or num % 2 == 0
+True

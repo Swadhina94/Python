@@ -1,0 +1,145 @@
+Bitwise AND (&)
+-------------------------------------------------------------------------
+1. What is the output of 10 & 5?--->0
+2. What is the output of 12 & 7?---->4
+3. What is the output of 15 & 8?---->8
+4. What is the output of 25 & 10?---->8
+5. What is the output of 31 & 15?----> 15
+6. Find the binary representation of 20 and 12, then perform AND operation.
+20 = 10100
+12 = 1100
+20 & 12 = 4
+
+7. Can the AND operator be used to check whether a number is even or odd? Explain.
+yes. 
+n=int(input())
+n & 1 = 0 ---> (Even)
+n & 1 = 1----->(Odd)
+
+8. What is the result of x & 0?-----> x=25 , x&0  = 0
+9. What is the result of x & x?-----> x=25 , x&x  = 25
+10. Write a program to find the bitwise AND of two numbers.---->
+20 = 10100
+12 = 1100
+20 & 12 = 4
+
+
+
+Bitwise OR (|)
+------------------------------------------------------------------------
+11. What is the output of 10 | 5?-----> 15
+12. What is the output of 12 | 7?----->15
+13. What is the output of 15 | 8?----->15
+14. What is the output of 25 | 10?----->27
+15. What is the output of 31 | 15?------>31
+16. Find the binary representation of 18 and 9, then perform OR operation.
+18 = 10010
+9 =   1001
+18 | 9 = 27
+
+17. What is the result of x | 0?---->x=25 , x|0= 25
+18. What is the result of x | x?----->x=25 , x | x= 25
+19. How does OR differ from AND? 
+botn side are present True value then result is True otherwise False (AND)
+atlist one side can present true value then result is True otherwise False (OR)
+
+20. Write a program to find the bitwise OR of two numbers.---->
+25 | 10----->27
+
+
+
+
+Bitwise XOR (^)
+--------------------------------------------------------------------------
+21. What is the output of 10 ^ 5?---->15
+22. What is the output of 12 ^ 7?----->11
+23. What is the output of 15 ^ 8?----->7
+24. What is the output of 25 ^ 10?----->19
+25. What is the output of 31 ^ 15?----->16
+26. What is the result of x ^ 0?------>x=25 , x^0 =25
+27. What is the result of x ^ x?----->x=25 , x ^ x =0
+28. Why is XOR used for swapping two numbers?
+a ^ b ^ b = a
+a ^ b ^ a = b
+29. Find the binary representation of 20 and 12, then perform XOR operation.
+20 =10100
+12 =1100
+20 ^ 12 = 24
+30. Write a program to find the bitwise XOR of two numbers.
+31 ^ 15 ----->16
+
+
+
+Bitwise NOT (~)
+----------------------------------------------------------------------------
+31. What is the output of ~10?-----> -11
+32. What is the output of ~25?-----> -26
+33. What is the output of ~(-5)? 4
+34. What is the output of ~0? --->-1
+35. Why does the NOT operator produce negative values?
+---> NOT produces negative values because Python uses two's complement representation.
+
+36. Find the output of ~100.---> -101
+37. What is the formula for calculating the result of the NOT operator?
+   -----> -(operand + 1)
+38. Explain the concept of 1's complement.
+Change all 0s to 1s and all 1s to 0s.
+
+39. Explain the concept of 2's complement.
+---->Take 1's Complement and add 1.
+40. Write a program to find the bitwise NOT of a number.
+ ~25 -----> -26
+Left Shift (<<)
+41. What is the output of 5 << 1?-------->10
+42. What is the output of 5 << 2?-------->20
+43. What is the output of 10 << 3?------->80
+44. What is the output of 25 << 2?------->100
+45. What is the output of 50 << 1?------->100
+46. What happens when a number is left shifted by one position?
+50 << 1---> 100
+47. How is left shift related to multiplication?
+n << k = n × 2^k
+
+48. Find the output of 8 << 4.---->128
+49. Find the output of 12 << 2.---->48
+50. Write a program to perform left shift on a number.
+12 << 2---->48
+
+
+
+Right Shift (>>)
+--------------------------------------------------------------------------------
+51. What is the output of 20 >> 1?------>10
+52. What is the output of 20 >> 2?------>5
+53. What is the output of 64 >> 3?---->8
+54. What is the output of 100 >> 2?----->25
+55. What is the output of 128 >> 4?----->8
+56. What happens when a number is right shifted by one position?
+20 >> 2------>5
+57. How is right shift related to division?
+n >> k = n // 2^k
+
+58. Find the output of 80 >> 3.---->10
+59. Find the output of 48 >> 2.---->12
+60. Write a program to perform right shift on a number.
+48 >> 2---->12
+
+
+
+Mixed Questions
+---------------------------------------------------------------------------------
+61. Find the output of (10 & 5) | 3. ----->3
+62. Find the output of (12 | 6) ^ 4.------>10
+63. Find the output of ~(10 & 5).--------> -1
+64. Find the output of (8 << 2) >> 1.------> 16
+65. Find the output of (15 ^ 7) & 5.-------->0
+66. Write a program to check whether a number is even or odd using bitwise operators.
+67. Write a program to swap two numbers using XOR.
+68. Write a program to find the nth bit of a number.
+69. Write a program to set the nth bit of a number.
+70. Write a program to clear the nth bit of a number.
+71. Write a program to toggle the nth bit of a number.
+72. Write a program to count the number of set bits in a number.
+73. Write a program to check whether a number is a power of 2 using bitwise operators.
+74. Write a program to find the rightmost set bit of a number.
+75. Write a program to find the only non-repeating element in a list using XOR.
