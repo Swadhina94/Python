@@ -1,0 +1,572 @@
+Python 3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)] on win32
+Enter "help" below or click "Help" above for more information.
+a = {15, 25.5, 'Python', False, (2, 4), (6, 8), 'AI', 75}
+a.add((10,12))
+a
+{False, (2, 4), 'AI', 'Python', (6, 8), 75, 15, 25.5, (10, 12)}
+a.add('Python')
+a
+{False, (2, 4), 'AI', 'Python', (6, 8), 75, 15, 25.5, (10, 12)}
+a.remove(False)
+a
+{(2, 4), 'AI', 'Python', (6, 8), 75, 15, 25.5, (10, 12)}
+a.pop()
+(2, 4)
+a
+{'AI', 'Python', (6, 8), 75, 15, 25.5, (10, 12)}
+a.add('ML')
+a
+{'AI', 'Python', (6, 8), 75, 15, 25.5, (10, 12), 'ML'}
+a.remove((2,4))
+Traceback (most recent call last):
+  File "<pyshell#11>", line 1, in <module>
+    a.remove((2,4))
+KeyError: (2, 4)
+a.add(25.5)
+a.pop()
+'AI'
+a.add((14,16))
+a
+{'Python', (6, 8), 75, (14, 16), 15, 25.5, (10, 12), 'ML'}
+a.add(150)
+a
+{'Python', (6, 8), 75, (14, 16), 15, 150, 25.5, (10, 12), 'ML'}
+
+
+ a = {'Apple', 'Mango', 100, 200.5, (10, 15), (20, 25), True, 'Orange'}
+ 
+SyntaxError: unexpected indent
+a = {'Apple', 'Mango', 100, 200.5, (10, 15), (20, 25), True, 'Orange'}
+a
+{(10, 15), True, 'Mango', 'Orange', 100, 200.5, 'Apple', (20, 25)}
+a.add((30, 35))
+a
+{(10, 15), True, 'Mango', 'Orange', 100, 200.5, (30, 35), 'Apple', (20, 25)}
+a.add('Apple')
+a
+{(10, 15), True, 'Mango', 'Orange', 100, 200.5, (30, 35), 'Apple', (20, 25)}
+a.remove('Orange')
+a
+{(10, 15), True, 'Mango', 100, 200.5, (30, 35), 'Apple', (20, 25)}
+a.pop()
+(10, 15)
+a
+{True, 'Mango', 100, 200.5, (30, 35), 'Apple', (20, 25)}
+a.add('Banana')
+a
+{True, 'Mango', 'Banana', 100, 200.5, (30, 35), 'Apple', (20, 25)}
+a.remove((10, 15))
+Traceback (most recent call last):
+  File "<pyshell#33>", line 1, in <module>
+    a.remove((10, 15))
+KeyError: (10, 15)
+a.add(True)
+a
+{True, 'Mango', 'Banana', 100, 200.5, (30, 35), 'Apple', (20, 25)}
+a.pop()
+True
+a
+{'Mango', 'Banana', 100, 200.5, (30, 35), 'Apple', (20, 25)}
+a.add((40, 45))
+a
+{'Mango', 'Banana', 100, 200.5, (40, 45), (30, 35), 'Apple', (20, 25)}
+a.add((500))
+a
+{'Mango', 'Banana', 100, 200.5, (40, 45), (30, 35), 'Apple', 500, (20, 25)}
+
+a
+{'Mango', 'Banana', 100, 200.5, (40, 45), (30, 35), 'Apple', 500, (20, 25)}
+
+
+a = {101, 'Java', 3.14, (11, 22), (33, 44), False, 'SQL', 202}
+a
+{False, 3.14, 101, 'Java', 202, (11, 22), (33, 44), 'SQL'}
+a.add((55, 66))
+a
+{False, 3.14, 101, (55, 66), 'Java', 202, (11, 22), (33, 44), 'SQL'}
+a.remove('SQL')
+a
+{False, 3.14, 101, (55, 66), 'Java', 202, (11, 22), (33, 44)}
+a.add(False)
+a
+{False, 3.14, 101, (55, 66), 'Java', 202, (11, 22), (33, 44)}
+a.pop()
+False
+a.add('Python')
+a
+{3.14, 101, (55, 66), 'Java', 'Python', 202, (11, 22), (33, 44)}
+a.remove((11, 22))
+a
+{3.14, 101, (55, 66), 'Java', 'Python', 202, (33, 44)}
+a.add((11,22))
+a
+{3.14, 101, (55, 66), 'Java', 'Python', 202, (11, 22), (33, 44)}
+a.add(101)
+a
+{3.14, 101, (55, 66), 'Java', 'Python', 202, (11, 22), (33, 44)}
+a.pop()
+3.14
+a.add((77, 88))
+a
+{101, (55, 66), 'Java', 'Python', 202, (77, 88), (11, 22), (33, 44)}
+a.add('Django')
+a
+{101, (55, 66), 'Java', 'Python', 202, (77, 88), (11, 22), (33, 44), 'Django'}
+
+
+ a = {'HTML', 'CSS', 'JS', (1, 2), (3, 4), 50, 60.5, True}
+ 
+SyntaxError: unexpected indent
+a = {'HTML', 'CSS', 'JS', (1, 2), (3, 4), 50, 60.5, True}
+add((5,6))
+Traceback (most recent call last):
+  File "<pyshell#72>", line 1, in <module>
+    add((5,6))
+NameError: name 'add' is not defined
+a.add((5,6))
+a.add('CSS')
+a.removed(50)
+Traceback (most recent call last):
+  File "<pyshell#75>", line 1, in <module>
+    a.removed(50)
+AttributeError: 'set' object has no attribute 'removed'. Did you mean: 'remove'?
+a.remove(50)
+a
+{True, (1, 2), 'JS', (3, 4), 'HTML', 'CSS', (5, 6), 60.5}
+a.pop()
+True
+a.add('React')
+a
+{(1, 2), 'JS', (3, 4), 'HTML', 'React', 'CSS', (5, 6), 60.5}
+a.remove((1, 2))
+a.add(True)
+a.pop()
+'JS'
+a
+{True, (3, 4), 'HTML', 'React', 'CSS', (5, 6), 60.5}
+a.add((7, 8))
+a
+{True, (3, 4), 'HTML', 'React', 'CSS', (5, 6), 60.5, (7, 8)}
+a.add('Bootstrap')
+a
+{True, 'Bootstrap', (3, 4), 'HTML', 'React', 'CSS', (5, 6), 60.5, (7, 8)}
+
+
+
+a = {'A', 'B', 'C', 10, 20, 30.5, (1, 1), (2, 2)}
+a
+{'B', 'C', (1, 1), 10, 20, (2, 2), 'A', 30.5}
+a.add((3, 3))
+a.add(10)
+a
+{'B', 'C', (1, 1), 10, (3, 3), 20, (2, 2), 'A', 30.5}
+a.remove('B')
+a.pop()
+'C'
+a
+{(1, 1), 10, (3, 3), 20, (2, 2), 'A', 30.5}
+a.add((4, 4))
+a
+{(4, 4), (1, 1), 10, (3, 3), 20, (2, 2), 'A', 30.5}
+a.remove((2, 2))
+a
+{(4, 4), (1, 1), 10, (3, 3), 20, 'A', 30.5}
+a.add(30.5)
+a.pop()
+(1, 1)
+a
+{(4, 4), 10, (3, 3), 20, 'A', 30.5}
+a.add('D')
+a
+{(4, 4), 10, 'D', (3, 3), 20, 'A', 30.5}
+a.add((5,5))
+a
+{(4, 4), (5, 5), 10, 'D', (3, 3), 20, 'A', 30.5}
+
+
+a = {'Dog', 'Cat', 'Lion', (10, 20), (30, 40), 100, 200.5, False}
+a
+{False, 'Dog', 100, 200.5, 'Cat', (10, 20), 'Lion', (30, 40)}
+a.add((50,60))
+a.add('DOG')
+a.remove('Lion')
+a
+{False, 'Dog', 100, 200.5, 'Cat', 'DOG', (10, 20), (50, 60), (30, 40)}
+
+
+
+
+a = {'Dog', 'Cat', 'Lion', (10, 20), (30, 40), 100, 200.5, False}
+a.add((50,60))
+a
+{False, 'Dog', 100, 200.5, 'Cat', (10, 20), (50, 60), 'Lion', (30, 40)}
+a.add('Dog')
+a
+{False, 'Dog', 100, 200.5, 'Cat', (10, 20), (50, 60), 'Lion', (30, 40)}
+a.remove('Lion')
+a
+{False, 'Dog', 100, 200.5, 'Cat', (10, 20), (50, 60), (30, 40)}
+a.pop()
+False
+a.add('Tiger')
+a
+{'Dog', 100, 200.5, 'Cat', (10, 20), 'Tiger', (50, 60), (30, 40)}
+a.remove((10,20))
+a
+{'Dog', 100, 200.5, 'Cat', 'Tiger', (50, 60), (30, 40)}
+a.add(False)
+a
+{False, 'Dog', 100, 200.5, 'Cat', 'Tiger', (50, 60), (30, 40)}
+a.pop()
+'Dog'
+a
+{False, 100, 200.5, 'Cat', 'Tiger', (50, 60), (30, 40)}
+a.add((70,80))
+a
+{False, 100, (70, 80), 200.5, 'Cat', 'Tiger', (50, 60), (30, 40)}
+a.add(100)
+a
+{False, 100, (70, 80), 200.5, 'Cat', 'Tiger', (50, 60), (30, 40)}
+
+
+a = {500, 600, 700.5, 'A', 'B', (5, 10), (15, 20), True}
+a
+{True, 'B', (15, 20), (5, 10), 500, 600, 'A', 700.5}
+a={True, 'B', (15, 20), (5, 10), 500, 600, 'A', 700.5}
+a
+{True, 'B', (15, 20), (5, 10), 500, 600, 'A', 700.5}
+a.add((25,30))
+a
+{True, 'B', (25, 30), (15, 20), (5, 10), 500, 600, 'A', 700.5}
+a.add(600)
+a.remove('A')
+a.pop()
+True
+a
+{'B', (25, 30), (15, 20), (5, 10), 500, 600, 700.5}
+a.add('C')
+aq
+Traceback (most recent call last):
+  File "<pyshell#156>", line 1, in <module>
+    aq
+NameError: name 'aq' is not defined. Did you mean: 'a'?
+a
+{'B', 'C', (25, 30), (15, 20), (5, 10), 500, 600, 700.5}
+a.remove((15, 20))
+a
+{'B', 'C', (25, 30), (5, 10), 500, 600, 700.5}
+a.add(True)
+a
+{True, 'B', 'C', (25, 30), (5, 10), 500, 600, 700.5}
+a.pop()
+'B'
+a
+{True, 'C', (25, 30), (5, 10), 500, 600, 700.5}
+a.add((35, 40)
+      a
+      
+SyntaxError: '(' was never closed
+aa.add((35, 40))
+      
+Traceback (most recent call last):
+  File "<pyshell#166>", line 1, in <module>
+    aa.add((35, 40))
+NameError: name 'aa' is not defined. Did you mean: 'a'?
+a.add((35, 40))
+      
+a
+      
+{True, 'C', (25, 30), (5, 10), 500, 600, 700.5, (35, 40)}
+a.add(700.5)
+      
+a
+      
+{True, 'C', (25, 30), (5, 10), 500, 600, 700.5, (35, 40)}
+
+
+
+
+a = {'SQL', 'Oracle', 'MySQL', (100, 101), (200, 201), 10, 20.5, False}
+      
+a.add((300,301))
+      
+a.add('SQL')
+      
+a
+      
+{False, (200, 201), 10, (300, 301), 'SQL', 'Oracle', 'MySQL', 20.5, (100, 101)}
+a.remove('Oracle')
+      
+a
+      
+{False, (200, 201), 10, (300, 301), 'SQL', 'MySQL', 20.5, (100, 101)}
+a.pop()
+      
+False
+a
+      
+{(200, 201), 10, (300, 301), 'SQL', 'MySQL', 20.5, (100, 101)}
+a.add('MongoDB')
+      
+a
+      
+{(200, 201), 'MongoDB', 10, (300, 301), 'SQL', 'MySQL', 20.5, (100, 101)}
+a.remove((100,101))
+      
+a
+      
+{(200, 201), 'MongoDB', 10, (300, 301), 'SQL', 'MySQL', 20.5}
+a.add(False)
+      
+a
+      
+{False, (200, 201), 'MongoDB', 10, (300, 301), 'SQL', 'MySQL', 20.5}
+a.pop()
+      
+(200, 201)
+a.add((400,401))
+      
+a
+      
+{False, 'MongoDB', 10, (400, 401), (300, 301), 'SQL', 'MySQL', 20.5}
+a.add(10)
+      
+a
+      
+{False, 'MongoDB', 10, (400, 401), (300, 301), 'SQL', 'MySQL', 20.5}
+
+
+
+a = {11, 22, 33, 'X', 'Y', (1, 3), (2, 4), 44.5}
+      
+a
+      
+{33, (2, 4), 'X', 44.5, 'Y', 11, 22, (1, 3)}
+a.add((5,7))
+      
+a
+      
+{33, (2, 4), 'X', 44.5, 'Y', 11, (5, 7), 22, (1, 3)}
+a.add(22)
+      
+a
+      
+{33, (2, 4), 'X', 44.5, 'Y', 11, (5, 7), 22, (1, 3)}
+a.remove('Y')
+      
+a
+      
+{33, (2, 4), 'X', 44.5, 11, (5, 7), 22, (1, 3)}
+a.pop()
+      
+33
+a.add('z')
+      
+a
+      
+{(2, 4), 'X', 44.5, 11, (5, 7), 22, (1, 3), 'z'}
+a.remove((1,3))
+      
+a.add(44.5)
+      
+a.pop()
+      
+(2, 4)
+a
+      
+{'X', 44.5, 11, (5, 7), 22, 'z'}
+a.add((6,8))
+      
+a
+      
+{(6, 8), 'X', 44.5, 11, (5, 7), 22, 'z'}
+a.add('X')
+      
+a
+      
+{(6, 8), 'X', 44.5, 11, (5, 7), 22, 'z'}
+
+
+a = {'Red', 'Blue', 'Green', (11, 12), (13, 14), 500, 600.6, True}
+      
+a.add((15, 16))
+a.add('Blue')
+      
+SyntaxError: multiple statements found while compiling a single statement
+a.add((15, 16))
+      
+a.add('Blue')
+      
+a
+      
+{True, (13, 14), 'Red', 'Blue', 'Green', (11, 12), (15, 16), 500, 600.6}
+a.remove('Green')
+      
+a.pop()
+      
+True
+a.add('Yellow')
+      
+a.remove((11,12))
+      
+a.add(True)
+      
+a.pop()
+      
+(13, 14)
+a.add((17,18))
+      
+a.add(500)
+      
+a
+      
+{True, 'Red', 'Blue', (15, 16), 500, 600.6, (17, 18), 'Yellow'}
+
+
+
+
+
+a = {1, 2, 3, 'A', 'B', (10, 20), (30, 40), 5.5}
+      
+a.add((50,60))
+      
+a.add(2)
+      
+a.remove('A')
+      
+a.pop()
+      
+1
+a.add('C')
+      
+a.remove((30,40))
+      
+a.add(5.5)
+      
+a.pop()
+      
+'B'
+a
+      
+{2, 3, 5.5, 'C', (10, 20), (50, 60)}
+a.add((70,80))
+      
+a.add('B')
+      
+a
+      
+{'B', 2, 3, 5.5, 'C', (70, 80), (10, 20), (50, 60)}
+
+
+
+a = {100, 200, 'Python', 'AI', (1, 2), (3, 4), True, 50.5}
+      
+a.add((5,6))
+      
+a.add('Python')
+      
+a.remove((1,2))
+      
+a.pop()
+      
+True
+a.add('ML')
+      
+a.remove(True)
+      
+Traceback (most recent call last):
+  File "<pyshell#259>", line 1, in <module>
+    a.remove(True)
+KeyError: True
+a.add(50.5)
+      
+a.pop()
+      
+'AI'
+a.add((7,8))
+      
+a.add(300)
+      
+a
+      
+{'Python', (3, 4), 100, 200, 300, 50.5, (5, 6), 'ML', (7, 8)}
+{'Python', (3, 4), 100, 200, 300, 50.5, (5, 6), 'ML', (7, 8)}
+      
+{100, 'Python', (3, 4), 200, 300, 50.5, (5, 6), 'ML', (7, 8)}
+
+a = {'Car', 'Bike', 10, 20.5, (100, 200), (300, 400), False, 'Bus'}
+      
+a.add('Train')
+      
+a.add((500,600))
+      
+a.remove('Car')
+      
+a.pop()
+      
+False
+a.add(False)
+      
+a.remove((100,200))
+      
+a.add(20.5)
+      
+a.pop()
+      
+'Bus'
+a.add('Metro')
+      
+a.add((700,800))
+      
+a
+      
+{False, 'Train', 10, 'Metro', (300, 400), 20.5, (500, 600), 'Bike', (700, 800)}
+>>> 
+>>> 
+>>> a = {'Java', 'Python', 'C', 101, 202, (11, 22), (33, 44), True}
+...       
+>>> a.add((55,66))
+...       
+>>> a.add(202)
+...       
+>>> a.remove('Java')
+...       
+>>> a.pop()
+...       
+True
+>>> a.add('SQL')
+...       
+>>> a.remove((33,44))
+...       
+>>> a.add(True)
+...       
+>>> a.pop()
+...       
+'C'
+>>> a.add((77,88)))
+SyntaxError: unmatched ')'
+>>> a.add((77,88))
+>>> a.add('Python')
+>>> a
+{True, 'Python', 101, (55, 66), 202, (77, 88), (11, 22), 'SQL'}
+>>> 
+>>> 
+>>> 
+>>> a = {'Pen', 'Book', 'Scale', 10, 20.5, (1, 5), (2, 6), False}
+>>> a.add((3,7))
+>>> a.add('Pen')
+>>> a.remove('Book')
+>>> a.pop()
+False
+>>> a.add('Pencil')
+>>> a.remove((1,5))
+>>> a.add(False)
+>>> a.pop()
+(3, 7)
+>>> a.add((4,8))
+>>> a.add(10)
+>>> a
+{False, 'Scale', 10, 'Pencil', (2, 6), 20.5, (4, 8), 'Pen'}
+
+
+
