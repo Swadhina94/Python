@@ -1,0 +1,160 @@
+Identity Operator (is)
+1. What is an Identity Operator in Python?
+---->An identity operator in Python is used to check whether two variables point to the exact same object in memory.
+2. Which identity operators are available in Python?
+---->There are exactly two identity operators available in Python.
+---->1. is Returns True if both variables point to the same object in memory. Returns False if they point to different objects, even if the values match.
+---->2. is not Returns True if variables point to different objects in memory. Returns False if they point to the exact same object.
+3. What is the purpose of the is operator?
+----->The purpose of the is operator is to determine whether two variables share the exact same memory address
+4. What is the difference between == and is?
+------->== (Equality Operator): Checks if the values of two objects are equal. It looks at the data stored inside the objects.
+------->is (Identity Operator): Checks if two variables point to the exact same object in memory. It looks at the memory address (id()) of the objects
+5. What is the output of:
+   a = 10
+   b = 10
+   print(a is b)---->True
+6. What is the output of:
+   a = [10, 20]
+   b = [10, 20]
+   print(a is b)---->False
+7. What is the output of:
+   a = [10, 20]
+   b = a
+   print(a is b)------>True
+8. Create two variables referring to the same object and check using is.
+-->a=[1,2,3]
+   b=[1,2,3]
+   a is b
+   False
+9. Check whether two strings refer to the same object using is.
+-->a='string'
+   b='data'
+   a is b
+   False
+10. Check whether two tuples refer to the same object using is.
+-->a=1,2,3
+   b=3,6,1
+   a is b
+   False
+11. What is the output of:
+    a = None
+    print(a is None)------>True
+12. Why is  None preferred over == None?
+----->The main reason is None is preferred over == None in Python is that is checks for object identity, while == checks for equality.
+13. Write a program to check whether two variables refer to the same object.
+14. What is the output of:
+    a = True
+    b = True
+    print(a is b)---->True
+15. Check identity between two integer variables.
+	a = 3
+	b = 3
+	a is b
+	True
+16. Check identity between two float variables.
+	a = 4.5
+	b = 8.9
+	a is b
+	False
+17. Check identity between two list variables.
+	a = [1,2,3]
+	b = [1,2,3]
+	a is b
+	True
+18. Check identity between two dictionary variables.
+	a = {1:3 , 2:4 , 5:7}
+	b = {1:8 , 2:9 , 5:1}
+	a is b
+	False
+19. Explain object identity with an example.
+20. Write a program demonstrating the use of the is operator.
+	a = 3
+	b = 3
+	a is b
+	True
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Identity Operator (is not)
+1. What is the purpose of the is not operator?
+----->The purpose of the is not operator is to determine whether two variables point to different objects in memory.
+2. What is the difference between != and is not?
+------>!= (Inequality Operator): Checks if the values of two objects are different. It looks at the actual data stored inside them.
+------>is not (Negative Identity Operator): Checks if two variables point to different objects in memory. It looks at their unique memory addresses (id()).
+3. What is the output of:
+   a = 10
+   b = 20
+   print(a is not b)----->True
+4. What is the output of:
+   a = [10, 20]
+   b = [10, 20]
+   print(a is not b)----->True
+5. What is the output of:
+   a = [10, 20]
+   b = a
+   print(a is not b)----->False
+6. Check whether two strings do not refer to the same object.
+	a='python'
+	b= 'class'
+	a is not b
+	True
+7. Check whether two tuples do not refer to the same object.
+	a=(1,2,3)
+	b=(1,2,3)
+	a is not b
+	True
+8. What is the output of:
+   a = None
+   print(a is not None)---->False
+9. Write a program using is not with user input.
+	a =33
+	a is not 33
+	False
+10. Check identity of two dictionary objects using is not.
+	a ={1:2,2:3}
+	b={1:2,2:3}
+	a is not b
+	True
+11. Check identity of two set objects using is not.
+	a = {1,2,3}
+	b={2,3,4}
+	a is not b
+	True
+12. Explain the output of:
+    a = 100
+    b = 100
+    print(a is not b)--->False
+13. Explain the output of:
+    a = []
+    b = []
+    print(a is not b)--->False
+14. Write a program to compare two objects using is not.
+a='naresh'
+b = 'naresh'
+a is not b
+False
+15. Check whether two variables refer to different objects.
+a=34
+b='man'
+a is not b
+True
+16. Demonstrate is not using strings.
+a = 'String'
+b = 'string'
+a is not b
+False
+17. Demonstrate is not using lists.
+a=[1,2,3]
+b=[1,2,3]
+a is not b
+True
+18. Demonstrate is not using tuples.
+a=(1,2,3)
+b=(1,2,3)
+a is not b
+True
+19. Demonstrate is not using dictionaries.
+a ={1:2,2:3}
+b={1:5,3:5}
+a is not b
+True
+20. Write a real-time example where is not can be used.
