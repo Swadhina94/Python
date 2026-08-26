@@ -1,0 +1,104 @@
+Membership Operator (in)
+1. What are membership operators in Python?
+--->Membership operators in Python are used to test whether a specific value or variable exists within a data sequence or collection. They evaluate structural presence and return a Boolean value: True or False.
+2. Which membership operators are available in Python?---> in and not in
+3. What is the purpose of the in operator?
+-->The purpose of the in operator is to check if a specific value exists inside a collection or sequence. It performs a search and returns a boolean value: True if the item is found, and False if it is not.
+4. What is the output of 10 in [10, 20, 30]?---->True
+5. What is the output of 15 in [10, 20, 30]?---->False
+6. Check whether a character exists in a string using in.
+	'a' in 'aeiou'
+	True
+7. Check whether a word exists in a sentence using in.
+	a =  ['python','javascript','java','c++']
+	"c++" in a
+	True
+8. What is the output of 'P' in 'Python'?---->True
+9. What is the output of 'z' in 'Python'?----->False
+10. Check whether a value exists in a tuple using in.
+	'a' in ('a','b','c')
+	True
+11. Check whether a value exists in a set using in.
+	'a' in {'a','b','c'}
+	True
+12. Check whether a key exists in a dictionary using in.
+	1 in {1:2,3:4}
+	True
+13. What is the output of 'name' in {'name':'Rajesh', 'age':25}?---->True
+14. What is the output of 'Rajesh' in {'name':'Rajesh', 'age':25}?--->False
+15. Check whether a student name exists in a list.
+--->jeeban in ['laxman','jahir',chakara']
+	False
+16. Check whether a city name exists in a tuple.
+	'Hyderabad' in ('Mumbai','Pune','Lucnkow')
+	False
+17. Check whether a product exists in a set.
+	'Sweet' in ['Sweet','Food']
+	True
+18. Write a program to search an element in a list using in.
+	3 in [2,3,4,5]
+	True
+19. Write a program to check whether a character is a vowel using in.
+	a in 'AEIOUaeiou'
+	True
+20. Write a program to validate a username from a predefined list using in.
+	username = 'nayak'
+	'nayak' in ('patnaik','print','Nayak')
+	False
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Membership Operator (not in)
+1. What is the purpose of the not in operator?
+--->The purpose of the not in operator is to verify that a specific value does not exist inside a collection or sequence.
+2. What is the output of 50 not in [10, 20, 30]?---->True
+3. What is the output of 20 not in [10, 20, 30]?----->False
+4. Check whether a character does not exist in a string using not in.
+'y' not in 'python'
+False
+5. What is the output of 'z' not in 'Python'?---->True
+6. What is the output of 'P' not in 'Python'?--->False
+7. Check whether a value does not exist in a tuple using not in.
+	'a' not in (a,b,c,d)
+	False
+8. Check whether a value does not exist in a set using not in.
+	'e' not in {a,b,c,d}
+	True
+
+9. Check whether a key does not exist in a dictionary using not in.
+	 9 not in {1:67 ,4:39 ,23:56}
+	True
+10. What is the output of 'salary' not in {'name':'swadhina', 'age':25}?---->True
+11. Check whether a student name is not present in a list.
+	'Swadhina' not in ['Harish','Ram','Shyam']
+	True
+12. Check whether a city name is not present in a tuple.
+	'Hyderabad' not  in ('Mumbai','Pune','Lucnkow')
+	True
+13. Check whether a product is not present in a set.
+	'apple' not in {'apple','banana'}
+	False
+14. Write a program to verify that a username is not available in a list.
+	'nayak' not in {'Behera' ,'Patnaik','Biswal'}
+	True
+15. Write a program to check whether a character is not a vowel using not in.
+	t not in 'AEIOUaeiou'
+	True
+16. Write a program to validate that an entered email is not in a blocked email list.
+	email = itaa@gmail.com
+	email not in ['dg@gmail.com','duhiu@gmail.com','wudyg@gmail.com']
+	True
+17. Check whether a number is not present in a list of numbers.
+	3 not in [1,3,4,5,6,2,3]
+	False
+18. Write a program to check whether a word is not present in a sentence.
+word = 'time'
+word not in "I can't done my work at time "
+False
+19. Write a program to display a message if an element is not found in a collection.
+a=9
+a not in (1,2,4,5,7,8,5,2,5,8)
+True
+20. Write a program using not in with user input.
+a = True
+a = input('Enter special keyword')
+a not in [True,False,None]
+False
