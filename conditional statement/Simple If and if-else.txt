@@ -1,0 +1,313 @@
+1. Accept a number and print it only if it is positive.
+num= int(input())
+if num >0:
+    print(num)
+
+2. Accept a number and print it only if it is even.
+num= int(input())
+if num%2 ==0:
+    print(num)
+
+3. Accept a number and print it only if it is divisible by 5.
+num= int(input())
+if num%5 ==0:
+    print(num)
+
+4. Accept age and print "Eligible for Voting" if age is 18 or above.
+age = int(input())
+if age >= 18:
+    print("Eligible for Voting")
+
+5. Accept marks and print "Pass" if marks are 35 or above.
+mark= int(input())
+if mark >= 35:
+    print("pass")
+
+6. Accept a character and print "Vowel" if it is a vowel.
+char=input()
+if char in 'AEIOUaeiou':
+    print('Vowel')
+
+7. Accept salary and print "Bonus Eligible" if salary is less than 30000.
+salary = int(input())
+if salary < 30000:
+    print("Bonus Eligible")
+
+8. Accept a number and print "Multiple of 10" if applicable.
+num= int(input())
+if num%10 ==0:
+    print("Multiple of 10") 
+
+9. Accept a year and print "Leap Year" if divisible by 4.
+year = int(input('Enter a year'))
+if  year % 4 == 0 :
+    print("Leap Year")
+
+10. Accept temperature and print "Hot Weather" if temperature is above 35.
+temp=int(input('Enter your temperture '))
+if temp > 35:
+    print("Hot Weather")
+
+11. Check whether a number is positive or negative.
+num=int(input("Enter a number "))
+if num > 0:
+    print("positive")
+else:
+    print('negative')
+
+12. Check whether a number is even or odd.
+num=int(input("Enter a number "))
+if num%2 == 0:
+    print("Even")
+else:
+    print('Odd')
+
+13. Check whether a number is divisible by 5 or not.
+num=int(input("Enter a number "))
+if num%5 == 0:
+    print("number is divisible by 5")
+else:
+    print('number is not divisible by 5')
+
+14. Check whether a person is eligible to vote or not.
+age = int(input("Enter your age "))
+if age >= 18 :
+    print("person is eligible to vote")
+else:
+    print("person is not eligible to vote")
+
+15. Check whether a student passed or failed.
+mark= int(input("Enter your mark "))
+if mark > 35 :
+    print('student is passed')
+else:
+    print('student is failed')
+
+16. Find the greater of two numbers.
+num1 = int(input("Enter a number "))
+num2 = int(input("Enter a number "))
+if num1 > num2 :
+    print(f'{num1} is greater ')
+else:
+    print(f'{num2} is greater')
+
+17. Find the smaller of two numbers.
+num1 = int(input("Enter a number "))
+num2 = int(input("Enter a number "))
+if num1 < num2 :
+    print(f'{num1} is smaller ')
+else:
+    print(f'{num2} is smaller')
+
+18. Check whether a character is a vowel or consonant.
+char=input()
+if char in 'AEIOUaeiou':
+    print('Vowel')
+else:
+    print('consonant')
+
+19. Check whether a year is a leap year or not.
+year = int(input('Enter a year'))
+if year % 400 == 0 or year % 4 == 0 and year % 100 != 0 :
+    print("Leap Year")
+else:
+    print("Not a Leap Year")
+
+20. Check whether a number is divisible by both 2 and 3.
+num= int(input("Enter a number "))
+if num%2 ==0 and num% 3 ==0:
+    print("number is divisible by both 2 and 3")
+
+21. Check whether a number is divisible by 7.
+num= int(input("Enter a number "))
+if num%7 ==0:
+    print("number is divisible by 7")
+else:
+    print("number is not divisible by 7")
+
+22. Check whether a number is a multiple of 10.
+num= int(input("Enter a number "))
+if num%10 ==0:
+    print("number is multiple of 10")
+else:
+    print("number is not multiple of 10")
+
+23. Check whether a number is greater than 100.
+num= int(input("Enter a number "))
+if num > 100 :
+    print("number is greater than 100")
+
+24. Check whether a number is less than 50.
+num= int(input("Enter a number "))
+if num < 50 :
+    print("number is less than 50")
+
+25. Compare two numbers and print whether they are equal or not.
+num1 = int(input("Enter a number "))
+num2 = int(input("Enter a number "))
+if num1 == num2 :
+    print("they are equal")
+else:
+    print('they are not equal')
+
+26. Check whether a person's age is above 60.
+age = int(input("Enter your age "))
+if age > 60 :
+    print("person's age is above 60")
+
+27. Check whether salary is greater than ₹50,000.
+salary = int(input("Enter your salary "))
+if salary > 50000:
+    print("salary is greater than ₹50,000")
+
+28. Check whether a number is divisible by 2.
+num=int(input("Enter a number "))
+if num%2 == 0:
+    print("number is divisible by 2")
+
+29. Check whether a number is divisible by 3.
+
+num=int(input("Enter a number "))
+if num%3 == 0:
+    print("number is divisible by 3")
+
+30. Check whether a number is divisible by 11.
+num=int(input("Enter a number "))
+if num%11 == 0:
+    print("number is divisible by 11")
+
+31. Check whether a customer gets free delivery (order amount above ₹500).
+delivery_amount = int(input("Enter your total amount of order "))
+if delivery_amount > 500:
+    print("free delivery ")
+
+32. Check whether a movie ticket can be booked (age above 18).
+age = int (input("Enter your age "))
+if age >18:
+    print("movie ticket booked")
+
+33. Check whether a user entered the correct password.
+correct_password = 'Swad@123'
+password = input("Enter password")
+if password == correct_password :
+    print("correct password")
+else:
+    print("password is not correct")
+
+34. Check whether a vehicle is allowed for driving (fuel > 0).
+fuel=int(input("Enter your vehicle's fuel range "))
+if fuel > 0:
+    print("allowed for driving")
+else:
+    print("fuel is low")
+
+35. Check whether attendance is sufficient (attendance ≥ 75%).
+attendance = int(input('Enter yuor attendance'))
+if attendance >= 75:
+    print("attendance is sufficent")
+else:
+    print("attendance not sufficent")
+
+36. Check whether a mobile recharge is valid (amount > 0).
+rech_amount=int(input("Enter mobile recharge amount  "))
+if rech_amount > 0:
+    print("mobile recharge is valid")
+
+37. Check whether a bank account has minimum balance.
+minimum_balance = 500
+balance = int(input("Enter your bank balance "))
+if balance > minimum_balance:
+    print("you have minimum balance")
+
+38. Check whether an exam form can be submitted (fees paid or not).
+due = int(input ("Enter your amount of due fees"))
+if due == 0 :
+    print("form can be submitted")
+
+39. Check whether a student is eligible for an internal exam.
+attendance = int(input('Enter yuor attendance'))
+if attendance >= 75:
+    print("eligible for an internal exam")
+else:
+    print("not eligible for an internal exam")
+
+40. Check whether a train ticket is confirmed (status entered as Confirmed or not).
+status=input("Enter your ticket status ")
+if status == 'Confirmed':
+    print('train ticket is Confirmed')
+else:
+    print('train ticket is not Confirmed')
+
+41. Check whether a number is zero or non-zero.
+num=int(input("Enter a number "))
+if num == 0:
+    print("number is Zero")
+else:
+    print("number is non Zero")
+
+42. Check whether a number is a single-digit number.
+num = int(input('Enter a number '))
+if -9<= num <= 9:
+    print('a single-digit number')
+else:
+    print('number is not a single digit')
+
+43. Check whether a number is greater than another number.
+num1 = int(input("Enter a number "))
+num2 = int(input("Enter a number "))
+if num1 > num2 :
+    print(f'{num1} is greater ')
+else:
+    print(f'{num2} is greater')
+
+44. Check whether a character is uppercase or not.
+char= input("Enter a character ")
+if 'A'<= char <= 'Z':
+    print('character is uppercase')
+else:
+    print("character is not uppercase")
+
+45. Check whether a character is lowercase or not.
+char= input("Enter a character ")
+if 'a'<= char <= 'z':
+    print('character is lowercase')
+else:
+    print("character is not lowercase")
+
+46. Check whether a person is a minor or major.
+age=int(input('Enter your age '))
+if age < 18 :
+    print("person is a minor")
+else:
+    print("person is a major")
+
+47. Check whether a product is in stock or out of stock.
+stock = 456
+product=int(input("Enter how many stock do you need "))
+if product <= stock :
+    print("product is in stock")
+else:
+    print("out of stock")
+
+48. Check whether a user has entered the correct OTP.
+otp = 115687
+Enter_otp=int(input('Enter otp'))
+if otp == Enter_otp :
+    print("user has entered the correct OTP")
+else:
+    print("user has entered the Wrong OTP")
+
+49. Check whether a student submitted the assignment.
+a=input("can you summitted the assignment ")
+if a== 'yes' or a=='YES':
+    print("student submitted the assignment")
+else:
+    print("student not submitted the assignment")
+    
+
+50. Check whether a person's height is above 5 feet.
+height=float(input("Enter height "))
+if height >= 5.0:
+    print("person's height is above 5 feet")
+else:
+    print("person's height is below 5 feet")

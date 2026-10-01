@@ -1,0 +1,644 @@
+elif statement
+----------------------------------------------------------------------------------------------
+
+#1. Accept a number and check whether it is positive, negative, or zero.
+'''
+number=int(input('Enter your number :'))
+if number >0:
+    print('Positive')
+elif number <0:
+    print('Negative')
+else:
+    print('Zero')
+'''
+#2. Accept a number and check whether it is a single-digit, two-digit, or three-digit number.
+'''
+n=int(input('Enter your number :'))
+if (0<= n <= 9) or (-0 >= n >= -9):
+    print('single-digit')
+elif (10 <= n <= 99) or (-10 >= n >= -99):
+    print('two-digit')
+elif (100 <= n <= 999) or (-100 >= n >=-999):
+    print('three-digit')
+    '''
+#3. Accept a person's age and determine whether they are a Child, Teenager, Adult, or Senior Citizen.
+'''
+age =int(input('Enter the age'))
+if 0 <= age <= 12:
+    print('child')
+elif 13 <= age <= 18:
+    print('Teenager')
+elif 18 <= age <= 60:
+    print('Adult')
+else:
+    print('Senior Citizen')
+
+4. Accept a student's marks and display the grade:
+   * 90-100 → A
+   * 75-89 → B
+   * 60-74 → C
+   * 35-59 → D
+   * Below 35 → Fail
+
+mark=int(input('Enter your mark:'))
+if 90 <= mark <= 100:
+    print('A')
+elif 75 <= mark <= 89:
+    print('B')
+elif 60 <= mark <= 74:
+    print('C')
+elif 35 <= mark <= 59:
+    print('D')
+else:
+    print('Fail')
+'''
+#5. Accept a number and check whether it is positive even, positive odd, or negative.
+'''
+num=int(input('Enter your number :'))
+if (num >= 0) and (num % 2 == 0):
+    print('positive even')
+elif (num <= 0) and (num % 2 == 0):
+    print('Negative even')
+elif (num >= 0) and (num % 2 != 0):
+    print('Postive odd')
+else:
+    print('Negative odd')
+    '''
+#6. Accept a month number (1-12) and display the month name.
+'''
+n=int(input('Enter the month number :'))
+#January, February, March, April, May, June, July, August, September, October, November, and December.
+if n == 1:
+    result = 'January'
+elif n == 2:
+    result = 'February'
+elif n == 3:
+    result = 'March'
+elif n == 4:
+    result = 'April'
+elif n == 5:
+    result = 'May'
+elif n == 6:
+    result = 'June'
+elif n == 7:
+    result = 'July'
+elif n == 8:
+    result = 'August'
+elif n == 9:
+    result = 'September'
+elif n == 10:
+    result = 'October'
+elif n == 11:
+    result = 'November'
+else :
+    result ='December'
+print(result)
+'''
+#7. Accept a day number (1-7) and display the day name.
+'''
+n=int(input('Enter the day number :'))
+
+#Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, and Sunday.
+if n == 1:
+    result = 'Monday'
+elif n == 2:
+    result = 'Tuesday'
+elif n == 3:
+    result = 'Wednesday'
+elif n == 4:
+    result = 'Thursday'
+elif n == 5:
+    result = 'Friday'
+elif n == 6:
+    result = 'Saturday'
+elif n == 7:
+    result = 'Sunday'
+else:
+    print('Not a valid day')
+print(result)
+'''
+#8. Accept a character and check whether it is a vowel, consonant, or digit.
+'''
+char = input('Enter your charecter').lower()
+if char in 'aeiou':
+    print('vowel')
+elif 'a' <= char <= 'z':
+    print('consonant')
+elif '0' <= char <= '9':
+    print('digit')
+    ;'''
+#9. Accept a year and check whether it belongs to the 20th century, 21st century, or another century.
+'''
+y= int(input('Enter your century'))
+if 1901 <= y <= 2000:
+    print('20th century')
+elif 2001 <= y <= 2100:
+    print('21th century')
+else:
+    print('another century')
+'''
+#10. Accept a temperature and display:
+    #* Cold
+    #* Warm
+   # * Hot
+'''
+temp = int(input('Enter the temp'))
+if -45 <= temp <= 15:
+    print('Cold')
+elif 16 <= temp <= 40:
+    print('Warm')
+elif temp >= 41:
+    print('Hot')
+    '''
+#   11. Accept two numbers and display the greater number or "Both are Equal".
+'''
+n1 = int(input('Enter num1'))
+n2 = int(input('Enter num2'))
+if n1 == n2:
+    print(f'{n1} and {n2} are equal')
+elif n1 > n2 :
+    print(f'{n1} is great than {n2}')
+else:
+     print(f'{n2} is great than {n1}')
+'''
+#12. Accept three numbers and display the largest number.
+'''
+n1 = int(input('Enter num1'))
+n2 = int(input('Enter num2'))
+n3 = int (input('Enter num3'))
+if n1 > n2 and n1 >n3:
+    print(f'{n1 }is greatest')
+elif n2 > n1 and n2 > n3:
+    print(f'{n2} is greatest')
+elif n3 > n2 and n3 > n1:
+    print(f'{n3} is greatest')
+
+
+13. Accept a salary and calculate the employee category:
+    * Below 20,000 → Low
+    * 20,000 to 50,000 → Medium
+    * Above 50,000 → High
+    
+sal=int(input('Enter your salary'))
+if sal < 20000:
+    print('Low')
+elif 20000 <= sal <= 50000:
+    print('Medium')
+elif sal > 50000:
+    print('High')
+
+14. Accept a percentage and determine the class:
+    * Distinction
+    * First Class
+    * Second Class
+    * Pass Class
+    * Fail
+    
+
+a = int(input('Enter your percentage'))
+if 79 <= a <= 100:
+    print(f'{a} % Distinction')
+elif 60 <= a <= 78:
+   print(f'{a}% First class ')
+elif 40 <= a <= 59:
+    print(f' {a}% Second class')
+elif 30 <= a <= 39:
+    print(f'{a}% pass class')
+elif 30 > a:
+    print('Fail')
+
+15. Accept a number and determine whether it is:
+    * Less than 0
+    * Between 0 and 50
+    * Between 51 and 100
+    * Greater than 100
+
+n= int(input('Enter your number'))
+if n < 0:
+    print('Less than 0')
+elif 0 <= n <= 50:
+    print('Between 0 and 50')
+elif 51 <= n <= 100:
+    print('Between 51 and 100')
+else :
+    print('Greater than 100')
+    
+
+16. Accept a mobile battery percentage and display:
+    * Low
+    * Medium
+    * High
+    * Fully Charged
+    '''
+'''
+b =int('Enter your battery')
+if b <20:
+    print('Low')
+elif 20 <= b <= 60:
+    print('Medium')
+elif 
+
+
+#17. Accept the amount of purchase and display discount category.
+a=int(input('Enter your amount'))
+if a >= 50000:
+    print('30% discount')
+elif a >=20000:
+    print('18 % discount:')
+elif a >= 5000:
+    print('5% discount')
+else:
+    print('No discount')
+18. Accept internet speed and classify as:
+    * Slow
+    * Average
+    * Fast
+    * Very Fast
+    '''
+'''
+a = int(input('Enter your internet speed :'))
+if a < 25:
+    result = 'slow'
+elif a <=100:
+    result ='Average'
+elif a <= 500:
+    result ='Fast'
+else:
+    result = 'Very fast'
+
+print(result)
+'''
+
+#19. Accept a person's height and classify as:
+ #   * Short
+  #  * Average
+   # * Tall
+'''
+h = float(input('Enter your age:'))
+if h >=6.5:
+    print('Tall')
+elif h >= 5.5:
+    print('Average')
+else:
+    print('Short')
+    
+'''
+#20. Accept a person's BMI value and classify it.
+'''
+bmi = float(input("Enter your BMI: "))
+
+if bmi < 18.5:
+  print("Underweight")
+elif bmi >= 18.5 and bmi <= 24.9:
+  print("Normal weight")
+elif bmi >= 25 and bmi <= 29.9:
+  print("Overweight")
+else:
+  print("Obese")
+
+'''
+#21. Accept a number (1-7) and display the corresponding weekday.
+'''
+n=int(input('Enter the day number :'))
+
+#Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, and Sunday.
+if n == 1:
+    result = 'Monday'
+elif n == 2:
+    result = 'Tuesday'
+elif n == 3:
+    result = 'Wednesday'
+elif n == 4:
+    result = 'Thursday'
+elif n == 5:
+    result = 'Friday'
+elif n == 6:
+    result = 'Saturday'
+elif n == 7:
+    result = 'Sunday'
+else:
+    print('Not a valid day')
+print(result)
+
+'''
+#22. Accept a number (1-12) and display the corresponding month.
+'''
+n=int(input('Enter the month number :'))
+#January, February, March, April, May, June, July, August, September, October, November, and December.
+if n == 1:
+    result = 'January'
+elif n == 2:
+    result = 'February'
+elif n == 3:
+    result = 'March'
+elif n == 4:
+    result = 'April'
+elif n == 5:
+    result = 'May'
+elif n == 6:
+    result = 'June'
+elif n == 7:
+    result = 'July'
+elif n == 8:
+    result = 'August'
+elif n == 9:
+    result = 'September'
+elif n == 10:
+    result = 'October'
+elif n == 11:
+    result = 'November'
+else :
+    result ='December'
+print(result)
+'''
+#23. Accept a traffic signal color and display:
+ #   * Red → Stop
+  #  * Yellow → Ready
+   # * Green → Go
+'''
+char = input('Enter the Signal').lower()
+if char == 'red':
+    print('its red signal ')
+elif char == 'yellow':
+    print('its yellow signal ')
+elif char == 'green':
+    print('its green signal')
+else:
+    print('invalid char')
+'''
+#24. Accept a fruit name and display its color category.
+'''
+fruit = input("Enter a fruit name: ").lower()
+
+if fruit == "banana" or fruit == "lemon":
+    print("Color category: Yellow")
+elif fruit == "apple" or fruit == "cherry":
+    print("Color category: Red")
+elif fruit == "grape" or fruit == "plum":
+    print("Color category: Purple")
+elif fruit == "orange":
+    print("Color category: Orange")
+elif fruit == "lime" or fruit == "kiwi":
+    print("Color category: Green")
+else:
+    print("Sorry, I do not know the color of this fruit.")
+'''
+#25. Accept a programming language name and display its category (Compiled/Interpreted).
+'''
+lang = input("Enter a programming language name: ").strip().lower()
+
+if lang == "python" or lang == "ruby" or lang == "javascript":
+    print(f"{lang.capitalize()} is an Interpreted language.")
+elif lang == "c" or lang == "cpp" or lang == "rust" or lang == "go":
+    print(f"{lang.capitalize()} is a Compiled language.")
+elif lang == "java" or lang == "csharp":
+    print(
+        f"{lang.capitalize()} is both Compiled and Interpreted (uses bytecode & VM)."
+    )
+else:
+    print("Unknown programming language or not in the database.")
+
+'''
+
+#26. Accept marks and display Pass, Fail, or Distinction.
+# Ask the user to type in their marks
+'''
+marks = float(input("Enter the student's marks: "))
+
+# Check the score to find the result
+if (marks < 0) or (marks > 100):
+    print("Invalid marks! Please enter a number between 0 and 100.")
+elif marks >= 75:
+    print("Result: Pass with Distinction!")
+elif marks >= 40:
+    print("Result: Pass!")
+else:
+    print("Result: Fail.")
+'''
+#27. Accept electricity units consumed and display the bill slab category.
+'''
+units = float(input("Enter the electricity units consumed: "))
+
+if units < 0:
+    print("Invalid units! Units consumed cannot be negative.")
+elif units <= 100:
+    print("Slab Category: Low Usage (Slab 1) ")
+elif units <= 300:
+    print("Slab Category: Medium Usage (Slab 2) ")
+elif units <= 500:
+    print("Slab Category: High Usage (Slab 3) ")
+else:
+    print("Slab Category: Very High Usage (Slab 4) ")
+
+
+'''
+#28. Accept a package amount and display Bronze, Silver, Gold, or Platinum membership.
+'''
+amount = float(input("Enter the package amount (₹): "))
+
+if amount < 0:
+    print("Invalid amount!")
+elif amount < 5000:
+    print(" Bronze ")
+elif amount < 15000:
+    print(" Silver ")
+elif amount < 30000:
+    print("Gold ")
+else:
+    print("Platinum ")
+
+'''
+#29. Accept an exam score and display performance level.
+'''
+score = float(input("Enter the exam score (0-100): "))
+
+if (score < 0) or (score > 100):
+    print("Please enter a number between 0 and 100.")
+elif score >= 90:
+    print("Outstanding")
+elif score >= 75:
+    print("Excellent")
+elif score >= 60:
+    print("Good ")
+elif score >= 40:
+    print("Average")
+else:
+    print("Below Average")
+
+
+'''
+#30. Accept a customer's age and suggest:
+ #   * Kids Ticket
+  #  * Student Ticket
+   # * Adult Ticket
+    #* Senior Citizen Ticket
+'''
+age = int(input('Enter your age'))
+if 0 <= age <= 6:
+    print('Kids Ticket')
+elif 7 <= age <= 17:
+    print('Student Ticket')
+elif 18 <= age <= 59:
+    print('Adult Ticket')
+else:
+    print('Senior Citizen Ticket')
+'''
+#31. Accept a character and determine whether it is:
+ #   * Uppercase Letter
+  #  * Lowercase Letter
+   # * Digit
+    #* Special Character
+'''
+let=input('Enter your char :')
+if 'A' <= let <= 'Z':
+    print('Uppercase Letter')
+elif 'a' <= let <= 'z':
+    print('Lowercase Letter')
+elif '0' <= let <= '9':
+    print('Digit')
+else:
+    print('Special charecter')
+'''
+#32. Accept a year and determine whether it is:
+#   * Leap Year
+#   * Century Year
+#   * Normal Year
+'''
+year = int(input("Enter a year: "))
+
+if year <= 0:
+    print("Invalid year")
+elif year % 400 == 0:
+    print(f"{year} is a Century Year AND a Leap Year! ")
+elif year % 100 == 0:
+    print(f"{year} is a Century Year (but a Normal Year). ️")
+elif year % 4 == 0:
+    print(f"{year} is a Leap Year! ")
+else:
+    print(f"{year} is a Normal Year. ")
+
+'''
+#33. Accept three numbers and display:
+#   * Largest
+#    * Smallest
+#   * Equal
+'''
+n1 = int(input('ENter the number 1:'))
+n2 = int(input('ENter the number 2:'))
+n3 = int(input('ENter the number 3:'))
+if n1 == n2 ==n3:
+    print('All are equal')
+else:
+    largest = max(n1, n2, n3)
+    print("Largest:", largest)
+    
+    smallest = min(n1, n2, n3)
+    print("Smallest:", smallest)
+
+
+'''
+#34. Accept a percentage and determine scholarship eligibility category.
+'''
+perc=float (input('Enter your percentage :'))
+if 80 <=perc <= 100:
+    print('Scolarship eligibility is high')
+elif perc >= 60:
+    print('Scolarship eligibility is moderate')
+elif perc >=48:
+    print('Scolarship eligibility is very low')
+else:
+    print('There is no chance of scolarship:')
+
+'''
+#35. Accept login attempts and display security level.
+'''
+failed_attempts = int(input("Enter the number of failed login attempts: "))
+
+if failed_attempts < 0:
+    print("Invalid input")
+elif failed_attempts <= 2:
+    print("Security Level: LOW ")
+elif failed_attempts <= 5:
+    print("Security Level: MEDIUM ")
+else:
+    print("Security Level: HIGH ")
+
+'''
+#36. Accept a movie ticket price and display ticket type.
+'''
+price = float(input("Enter the movie ticket price (in ₹): "))
+
+if price <= 0:
+    print("Invalid price")
+elif price < 150:
+    print("Ticket Type: Child ")
+elif price <= 350:
+    print("Ticket Type: Standard Adult")
+else:
+    print("Ticket Type: Premium ")
+
+
+'''
+#37. Accept a cricket score and classify batting performance.
+'''
+score = int(input("Enter the batsman's score: "))
+
+if score < 0:
+    print("Invalid score. Runs cannot be negative.")
+elif score == 0:
+    print("Batting Performance: Duck ")
+elif score < 30:
+    print("Batting Performance: Low Score ")
+elif score < 50:
+    print("Batting Performance: Good Start")
+elif score < 100:
+    print("Batting Performance: Half-Century ")
+else:
+    print("Batting Performance: Century ")
+    '''
+
+#38. Accept a water level percentage and display tank status.
+'''
+water_level = float(input("Enter the water level percentage (0 to 100): "))
+
+if water_level < 0 or water_level > 100:
+    print("Invalid input")
+elif water_level < 20:
+    print("Tank Status: Critical Low ")
+elif water_level <= 80:
+    print("Tank Status: Normal")
+else:
+    print("Tank Status: Full ")
+
+'''
+#39. Accept a train speed and classify the train type.
+'''
+speed = float(input("Enter the train speed (in km/h): "))
+
+if speed <= 0:
+    print("Invalid speed")
+elif speed <= 110:
+    print("Train Type: Passenger Train")
+elif speed <= 160:
+    print("Train Type: Express Train")
+else:
+    print("Train Type: High-Speed Train")
+'''
+#40. Accept a product rating and display:
+ #   * Excellent
+  #  * Good
+   # * Average
+    #* Poor
+''' 
+rate = float(input('Enter the product rating :'))
+if 8.8 <= rate <= 10.0:
+    print('Product is Excellent')
+elif 7.0 <= rate <= 8.7:
+    print('Product is Good')
+elif 4.9 <= rate <= 6.9:
+    print('Product is Average')
+elif 0.0 <= rate <= 4.8:
+    print('Product is Poor')
+else:
+    print('Invalid product rating')
+'''
