@@ -1,0 +1,9 @@
+n=int(input())
+for i in range(1,n+1):
+    j=1
+    for j in range(1,n+1):
+        if i==n or j==n or i+j==n+1:
+            print('*',sep='',end='  ')
+        else:
+            print(' ',sep='',end='  ')
+    print()
