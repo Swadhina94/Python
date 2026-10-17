@@ -1,0 +1,19 @@
+n=int(input("Enter number "))
+b=n
+i=1
+sum=0
+reverse=0
+while n>0:
+    l=n%10
+    reverse=reverse*10+l
+    n=n//10
+s=reverse    
+while s>0 :
+    a=s%10
+    sum=sum+(a**i)
+    s=s//10
+    i+=1    
+if sum== b:
+    print("Disarium")
+else:
+    print("Not Disarium")
