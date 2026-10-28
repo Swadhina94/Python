@@ -1,0 +1,7 @@
+
+def fac(n, f=1):
+    if n == 0:
+        return f
+    return fac(n - 1, f * n)
+
+print(fac(int(input())))
